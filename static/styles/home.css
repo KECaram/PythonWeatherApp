@@ -1,0 +1,38 @@
+/* Keith Caram
+ INFO.305.061: Survey of Python, Perl, and PHP
+ Assignment #4 - Complex Python Program
+								Program Summary
+This is the style sheet for the page home.html - it contains all the style rules for that page.
+*/
+
+h2{
+	font-family: serif;
+	font-size: 24px;
+	padding-left: 20px;
+}
+
+#weatherForm{
+	font-family: serif;
+	font-size: 18px;
+	padding: 20px;
+}
+
+#weatherInput{
+	font-family: serif;
+	font-size: 20px;
+}
+
+#weatherSubmit{
+	font-family: serif;
+	font-size: 24px;
+	color: white;
+	background-color: salmon;
+
+	padding: 5px 20px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+#weatherSubmit:hover{
+	cursor: pointer;
+}

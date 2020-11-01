@@ -1,0 +1,17 @@
+/* Keith Caram
+ INFO.305.061: Survey of Python, Perl, and PHP
+ Assignment #4 - Complex Python Program
+								Program Summary
+This is the style sheet for the page results.html - it contains all the style rules for that page.
+*/
+
+#weatherResults {
+    background-color: powderblue;
+    font-family: serif;
+    font-size: 24px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+}

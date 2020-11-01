@@ -1,0 +1,24 @@
+<!-- Keith Caram
+ INFO.305.061: Survey of Python, Perl, and PHP
+ Assignment #4 - Complex Python Program
+								Program Summary
+This is the home page of the weatherWebApp.py, it contains the layout and display for the home
+page of the app including a form and a potential passed argument for invalid data.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Weather Dashboard</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/home.css') }}">
+</head>
+<body>
+<h2>Weather Dashboard in Flask</h2>
+<form id="weatherForm" action="{{url_for('render_results')}}" method="post"> 
+	Enter Zip Code, City Name, or 'Local' for weather at the given location: <input id= "weatherInput" type="text" name="location"> <br>
+	<input id="weatherSubmit" type="submit" value="Get the Weather!">
+	<p>{{Invalid}}</p>
+</form>
+</body>
+</html>
